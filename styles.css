@@ -1,0 +1,136 @@
+@media screen and (max-width: 800px){
+    #pricing {
+        flex-direction: column;
+    }
+}
+
+body {
+    text-align: center;
+    background-color: #eee;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #eee;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-color: #eee;
+}
+
+#container p {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#hero {
+    padding: 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+#email {
+    max-width: 375px;
+    margin: 10px 0;
+}
+
+#submit {
+    display: block;
+    margin: 10px auto;
+    background-color: yellow;
+    max-width: 75px;
+    text-align: center;
+}
+
+#features {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+p {
+    text-wrap: normal;
+}
+
+#how_it_works {
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+    max-width: 560px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+#pricing div {
+    margin: 10px auto;
+    border: 1px solid black;
+    text-align: center;
+    max-width: 375px;
+}
+
+#pricing div h2 {
+    background-color: gray;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+#pricing div p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#pricing div ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#pricing div ul li {
+    margin: 5px 0;
+    text-wrap: normal;
+}
+
+button {
+    background-color: yellow;
+    margin: 10px 0;
+    
+}
